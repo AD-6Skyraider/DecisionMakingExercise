@@ -26,7 +26,7 @@ if (randomNum === 2 || randomNum === 4) {
 }
 
 //Bonus 1
-console.log(randomNum >= 4 ? "Greater than or equal to 4" : "Less than 4");
+console.log(randomNum >= 4 ? console.log("Greater than or equal to 4"); : console.log("Less than 4");
 
 //Bonus 2
 switch (randomNum) {
